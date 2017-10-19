@@ -1,4 +1,4 @@
-plist = require 'simple-plist'
+plist = require '../simple-plist'
 
 describe "String parsing", =>
   it "can parse a string", =>

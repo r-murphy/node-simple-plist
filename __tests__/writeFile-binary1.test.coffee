@@ -1,4 +1,4 @@
-plist = require 'simple-plist'
+plist = require '../simple-plist'
 filePath = "#{__dirname}/write-test-binary1.plist"
 testObj = {
   Name: 'John Doe'

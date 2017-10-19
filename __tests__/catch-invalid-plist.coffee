@@ -1,4 +1,4 @@
-plist = require 'simple-plist'
+plist = require '../simple-plist'
 
 it "Throws an error on improperly formatted plist", =>
   doIt = ->

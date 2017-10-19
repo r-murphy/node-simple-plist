@@ -1,4 +1,4 @@
-plist = require 'simple-plist'
+plist = require '../simple-plist'
 filePath = "#{__dirname}/test-binary1.plist"
 
 describe 'readFileSync can properly load and read a binary file', =>
